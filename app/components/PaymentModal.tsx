@@ -113,8 +113,7 @@ export function PaymentModal({ open, onClose }: PaymentModalProps) {
         </ul>
 
         {/* Checkout CTA */}
-        <a
-          href={CHECKOUT_URL}
+        <a href={CHECKOUT_URL} target="_blank"
           className="mx-7  flex items-center justify-center gap-2.5 rounded-[13px] bg-gradient-to-r from-[#E31E24] to-[#ff4d52] py-[17px] text-[15.5px] font-extrabold text-white shadow-[0_14px_30px_rgba(227,30,36,0.35)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_18px_36px_rgba(227,30,36,0.5)] active:translate-y-0 active:scale-[0.99]"
         >
           <Icon name="cart" size={18} />
